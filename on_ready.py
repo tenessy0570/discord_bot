@@ -22,7 +22,7 @@ class Ready:
     _roles = create_and_get_roles_dict(_emojis)
 
     async def on_ready(self):
-        await on_ready_print(self)
+        on_ready_print(self)
         # _channel = None
         #
         # for channel in self.get_all_channels():
